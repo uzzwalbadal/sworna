@@ -16,9 +16,9 @@
     	<div class="col-md-3">
     		<span class="day">{{date('l,M d, Y')}}</span> 
         </div>
-        <div class="col-md-9">
+        <!-- <div class="col-md-9">
         	<span class="latest">Latest: </span> <a href="{{url('article')}}/{{$lastnews->slug}}">{{$lastnews->title}}</a>
-        </div>
+        </div> -->
     </div>
     <div class="col-md-3 top-social">
 		@foreach($settings->social as $key=>$social)
